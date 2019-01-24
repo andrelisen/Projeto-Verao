@@ -1,0 +1,95 @@
+/*Limpar formatações padrões*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+  body {
+    font-size: 16px;
+    font-family: "Trebuchet MS", sans-serif;
+    background: #EED5D2;
+  }
+
+  #navegacao{
+    background: #E8E8E8;
+    border-bottom: 1px solid #A9A9A9;
+    height: 50px;
+    margin-top: 10px;
+    padding-top: 10px;
+  }
+
+  #area{
+    width: 720px;
+    margin: 0 auto;/*centraliza*/
+  }
+
+  #area-principal{
+    width: 720px;
+    margin: 10px auto 10px auto;/*centraliza*/
+  }
+
+  #postagem
+  {
+    background: #CD3278;
+    width: 150px;
+    height: 60px;
+    margin-left: 220px;
+    border: 2px solid #CD3278;
+    border-radius: 12px;
+    padding-left: 15px;
+    font-size: 30px;
+    font-family: "Times New Roman";
+    color:#E8E8E8 ;
+  }
+
+  .rosa{
+    color:#CD3278;
+  }
+
+  #conteudo{
+    background: #CD3278;
+    margin: 30px ;
+    font-size: 15px;
+    font-family: "Times New Roman";
+    color:#E8E8E8 ;
+    text-align: center; /*centraliza textos*/
+  }
+
+  #imagem{
+    width: 604px;
+    height: 600px;
+    margin: 40px auto 50px 50px;
+  }
+
+  #imagem2{
+    width: 604px;
+    height: 600px;
+    margin: 100px 50px 50px 400px;
+  }
+
+  #menu{
+    float:right;/*fique a direita*/
+    padding: 10px 0px;
+  }
+  /*NAO VISITADO*/
+  a:link{
+    color: #9C9C9C;
+  }
+  /* VISITADO*/
+  a:visited{
+    color: #9C9C9C;
+  }
+  /*TIRAR RISCO*/
+  a{
+    text-decoration: none;
+    padding: 5px 10px 5px 10px;
+  }
+  /*QUANDO PASSA O MOUSE*/
+  a:hover{
+    background: #CD3278;
+    color: black;
+  }
+
+  #logo{
+    float:left;/*fique a esquerda*/
+  }
